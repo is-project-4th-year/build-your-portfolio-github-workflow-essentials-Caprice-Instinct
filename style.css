@@ -282,7 +282,7 @@ body {
 .form-group label {
   display: block;
   margin-bottom: 8px;
-  font-weight: bold;
+  font-weight: 600;
   color: #6a11cb;
 }
 
@@ -293,8 +293,54 @@ body {
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1rem;
+  font-family: inherit;
+  background-color: #fff;
+  color: #333;
 }
 
 .contact .cta-button {
   margin-top: 10px;
+  background-color: #6a11cb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact .cta-button:hover {
+  background-color: #2575fc;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.95rem;
+  }
+
+  .contact .cta-button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .contact-form {
+    padding: 0 10px;
+  }
 }
