@@ -1,99 +1,90 @@
-# 🌐 Personal Portfolio Project Assignment
+# 🌟 Linet Wangui – Developer Portfolio
 
-Welcome to your **Personal Portfolio Project**! This assignment is designed to help you practice core GitHub and project management skills, including milestones, issues, project boards, branching, commit conventions, pull requests, and resolving merge conflicts.
+Welcome to my personal portfolio! This website highlights who I am, my skills, selected projects, and includes a contact form for reaching out.
+
+## 🚀 Live Preview
+
+[Visit the Portfolio Website]([https://your-portfolio-link.com](https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Caprice-Instinct/))  
+
 
 ---
 
-## 📌 Project Management Guidelines
+## 📌 Table of Contents
 
-### ✅ Milestones
-Define major phases or deliverables of your portfolio (e.g., Landing Page, Team Profiles, Admin Panel).
-
-### ✅ Issues
-Break each milestone into manageable tasks. Link these issues to their related milestone for better tracking.
-
-### ✅ Project Board
-Create a GitHub project board with columns like:
-- `To Do`
-- `In Progress`
-- `Done`
-
-Assign tasks and pull requests to the appropriate columns.
+- [About Me](#about-me)
+- [Tech Stack](#tech-stack)
+- [Projects](#projects)
+- [Setup Instructions](#setup-instructions)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
-## 🔧 Git Workflow
+## 👩‍💻 About Me
 
-### 🔀 Branching
-Use feature branches for each issue. Adopt a consistent naming format such as:
+Hi! I'm **Linet Wangui**, a passionate software developer based in Kenya. I enjoy building intuitive and user-friendly web and mobile applications. My focus areas include:
 
-```
-feature/<issue-number>-short-description
-```
-
-### 💬 Commits
-Use structured, meaningful commit messages:
-
-```
-<type>(<optional scope>): <short description>
-
-<body>
-
-<footer>
-```
-
-**Commit Types: `(use at least 6 of these)`**
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `style`: Formatting, white space, etc.
-- `refactor`: Code restructure (no feature or bug)
-- `perf`: Performance improvement
-- `test`: Test-related updates
-- `chore`: Non-code updates (e.g., config)
-- `build`: Build system or dependency changes
-- `ci`: Continuous integration changes
-
-**Example:**
-```
-feat(portfolio): add responsive navigation bar
-
-Added a mobile-first responsive nav using Flexbox.
-
-Closes #45
-```
+- Full-stack development  
+- Mobile applications  
+- Problem-solving through technology  
+- Exploring artificial intelligence innovations  
 
 ---
 
-## 🔄 Pull Requests & Merge Conflicts
+## 🧰 Tech Stack
 
-- Open a PR for each feature branch.
-- Link the PR to its corresponding issue.
-- Request reviews before merging.
-- Document any merge conflict resolution in the PR or commit message.
+### Frontend
+
+- HTML5, CSS3  
+- JavaScript (ES6+)  
+- React & Next.js  
+- Bootstrap (used in some projects)
+
+### Backend & Tools
+
+- Python  
+- MySQL  
+- Git & GitHub  
 
 ---
 
-## 🚀 Deployment & Documentation
+## 📂 Projects
 
-- Keep the `main` branch always deployable.
-- Deploy using GitHub Pages (mandatory) and any suitable platform (optional).
-- Complete the `Assignment.md` file in this repository by addressing all listed requirements. This document will be used for evaluation.
+| Project         | Description                                                                 | Tech Used                            |
+|------------------|-----------------------------------------------------------------------------|----------------------------------------|
+| **Todo App**      | A simple task-tracking application designed for productivity               | React, CSS                             |
+| **Portfolio**     | The very site you’re viewing — built to reflect my skills and journey      | HTML, CSS, JavaScript                  |
+| **Weather App**   | A real-time weather forecast tool powered by a public weather API          | JavaScript, OpenWeather API, Bootstrap |
+
 ---
 
-## 📥 Submission Checklist
+## 🛠️ Setup Instructions
 
-Before submitting your project, ensure the following:
+To view the project locally:  
+- Download or clone the project folder  
+- Open the `index.html` file in your preferred browser  
+- No installations or dependencies required
 
-- [ ] Defined milestones for key features
-- [ ] Created and linked issues to milestones
-- [ ] Organized a GitHub project board (To Do / In Progress / Done)
-- [ ] Used structured commit messages
-- [ ] Created separate feature branches for tasks
-- [ ] Opened and merged PRs with meaningful descriptions
-- [ ] Demonstrated conflict resolution (Simulate atleast one)
-- [ ] Deployed the portfolio online
-- [ ] Completed and updated the `Assignment.md` file which will be marked and graded
+This project uses pure HTML, CSS, and JavaScript — no frameworks needed to run locally.
 
+---
 
+## 📬 Contact
 
+Feel free to connect or collaborate:
+
+- **Email:** your-email@example.com  
+- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/linet-wangui)  
+- **GitHub:** [github.com/your-username](https://github.com/Caprice-Instinct)
+
+You can also use the contact form at the bottom of the website.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> Made with 💙 by Linet Wangui
