@@ -87,6 +87,51 @@ body {
   line-height: 1.8;
 }
 
+/* Skills Section */
+.skills {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2575fc;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.skills-group {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  max-width: 300px;
+  width: 100%;
+}
+
+.skills-group h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #6a11cb;
+}
+
+.skills-group ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-group ul li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
 /* Responsive Layout */
 @media (max-width: 768px) {
   .hero-content h1 {
@@ -123,6 +168,11 @@ body {
 
   .about-content {
     flex-direction: column;
+  }
+
+  .skills-wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
