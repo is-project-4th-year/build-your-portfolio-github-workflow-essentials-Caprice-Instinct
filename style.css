@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #f4f4f4;
   color: #333;
 }
@@ -45,4 +45,41 @@ body {
 
 .cta-button:hover {
   background-color: #eee;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 40px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    display: inline-block;
+    font-size: 1rem;
+  }
 }
