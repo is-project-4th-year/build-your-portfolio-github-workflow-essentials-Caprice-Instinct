@@ -46,3 +46,77 @@ body {
 .cta-button:hover {
   background-color: #eee;
 }
+
+/* About Section */
+.about {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #6a11cb;
+}
+
+.about p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 40px 10px;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+}
